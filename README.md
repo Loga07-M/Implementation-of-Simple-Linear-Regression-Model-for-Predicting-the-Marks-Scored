@@ -20,6 +20,7 @@ To write a program to predict the marks scored by a student using the simple lin
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: LOGA SRI M
 RegisterNumber:  212225230153
+*/
 
 import pandas as pd
 import numpy as np 
@@ -72,7 +73,6 @@ print("Root Mean Squared Error (RMSE):", rmse)
 new_hours = np.array([[2.5], [8.0]])   # shape must be (n_samples, 1)
 pred_new = regressor.predict(new_hours)
 print("\nPredictions for new hours", new_hours.flatten(), "=>", np.round(pred_new,2))
-*/
 ```
 
 ## Output:
